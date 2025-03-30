@@ -106,15 +106,54 @@ article > p{
     background-color: white;    
 }
 article > ul {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom: 20px;
+    
+}
+article > ul >li{
+   padding-bottom: 10px;
+   
+}
+aside > h2{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    font-family: var(--fonte-especial);
+    color: white;
+
 }
 aside > h3,.sistema {
     background-color: white;
 }
+aside> h3{
+    padding-top: 10px;
+}
 aside a {
     text-decoration:none;
+}
+.paragrafo{
+    padding-bottom: 10px;
+}
+.gui li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.hmi li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.um {
+    padding-top: 20px;
+}
+picture{
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+
+}
+picture > small >a{
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
 div.video{
     background-color: #335db9a8;
